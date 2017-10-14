@@ -1,0 +1,48 @@
+
+.Title_Adm {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+	border-bottom: 2px solid black;
+	color:azure;
+	font-style: italic;
+}
+.Title_Adm.Min {
+	font-size: 20px;
+}
+.Center_Left {
+	width: 45%;
+	margin:2%;
+	padding: 1%;
+	height: 500px;
+    word-wrap:break-word;
+}
+.Center_Right {
+	width: 45%;
+	float: right;
+	margin:2%;
+	padding: 1%;
+	height: 500px;
+	word-wrap:break-word;
+}
+#boxDetails {
+	word-wrap:break-word;
+	overflow: auto;
+}
+#arh_msg{
+	padding-bottom: 7%;
+}
+.Box_auto {
+	min-height: 100px;
+}
+.item_msg {
+	position: relative;
+	width: 100%;
+	height:40px;
+}
+.item_msg:hover {
+  background-color: black;
+}

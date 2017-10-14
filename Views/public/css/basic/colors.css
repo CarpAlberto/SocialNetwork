@@ -1,0 +1,25 @@
+
+
+
+.slate   { background-color: #ddd; }
+.green   { background-color: #779126; }
+.blue    { background-color: #3b8ec2; }
+.yellow  { background-color: #eec111; }
+.black   { background-color: #000; }
+.red     { background-color: red; }
+.white   { background-color: white; }
+.sh_black { background-color: rgba(1.2.3,0.4);}
+
+.white_col  {color: #fff;}
+.blue_col   {color: #ccc;}
+.green_col  { color:green !important;}
+.red_col {color: red !important;}
+.black_col  { color:black !important;}
+.time_col {color:#bbb!important;font-size: 11px!important;}
+
+
+.slate select   { color: #000; }
+.green select   { color: #fff; }
+.blue select    { color: #fff; }
+.yellow select  { color: #000; }
+.black select   { color: #fff; }

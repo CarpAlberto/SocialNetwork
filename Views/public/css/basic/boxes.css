@@ -1,0 +1,104 @@
+/*Boxex  */
+
+.Box_100p_400px  {
+	width: 100%;
+	min-height: 200px;
+	height: auto;
+	overflow:auto;
+}
+
+.Box_auto{
+	width: 100%;
+    height: auto;
+    overflow: auto;
+}
+.Box_auto.Underlined {
+	border-bottom:1px solid black;
+}
+.Box_auto.Underlined.Padded {
+	padding: 4%;
+}
+.Box_auto.Underlined.right {
+    float: right;
+}
+
+.Box_100p_50px {
+	width: 100%;
+	height:50px;
+}
+
+.Box_100p_50px.Underlined {
+	border-bottom:1px solid black;
+}
+
+.Box_60p_80px {
+	width: 60%;
+	max-height:100px;
+	overflow: auto;
+	padding-top: 10px;
+	min-height: 20px;
+}
+.Box_60p_80px {
+	width: 60%;
+	height: 20px;
+}
+.Box_60p_80px.right {
+   float:right;
+}
+.Box_30p_30p{
+	width: 30%;
+	height: 30%;
+}
+.Box_30p_30p.right {
+	float:right;
+}
+.Box_60p_80px.right.Underlined {
+	border-bottom:solid 1px black;
+}
+
+.Box_60p_50px {
+	width: 60%;
+	height:50px;
+	padding:7px;
+}
+.Box_60p_50px.right {
+   float:right;
+}
+.Box_80p_40p {
+	width:80%;
+	height:40%;
+}
+.Box_20p_100p {
+	width:85%;
+	height:9%;
+	position: relative;
+	left:55px;
+}
+.Big_2 {
+	height: 25% !important;
+	width: 60%!important;
+	margin: 0 auto 0 auto;
+}
+.Big_3 {
+	height: 9% !important;
+	width: 65%!important;
+	margin: 0 auto 0 auto;
+	position: relative;
+}
+.Big_4 {
+	height: 25% !important;
+	width: 90% !important;
+	margin: 0 auto 0 auto;
+	position: relative;
+	bottom: 30px;
+}
+
+.Box_80p_40p.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.Box_70px_70px {
+	width: 170px;
+	height: 170px;
+}
+/* End Of Boxes*/

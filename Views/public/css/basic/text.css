@@ -1,0 +1,138 @@
+/*
+   Cuprinde clase responsabile pentru gestionarea elementelor de text si paginare 
+
+*/
+.Title {
+	font-family:Consolas,"lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size:18px;
+	text-align: left;
+	font-weight: bold;
+	color:white;
+	display: block;
+  padding: 10px;
+}
+.Big {
+  font-size: 24px;
+}
+.Title.ShadowTitle {
+	opacity: 0.6;
+}
+.Title.ShadowTitle.Medium {
+	font-size: 14px;
+}
+.Title.ShadowTitle.Medium.left {
+	float: left;
+}
+
+.Title.Medium {
+  font-size: 14px;
+}
+.Title.ShadowTitle.Underlined {
+	border-bottom:solid 2px black;
+}
+.SmallText {
+	font-size: 13px;
+  color: white;
+}
+
+.Link {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: blue;
+    cursor: pointer;
+}
+.Link:link {
+    color: #C00;
+}
+.Link:hover {
+    color: #BF0;
+    text-decoration: underline;
+ }
+.Link:active {
+    color: #90F;
+}
+.Link:visited {
+    color: #FF0;
+}
+
+.BigTitle {
+    color: #d54d7b;
+    font-family: "Great Vibes", cursive; 
+    font-size: 70px; 
+    line-height: 5px; 
+    font-weight: normal;
+    text-align: left; 
+    text-shadow: 0 1px 1px #fff; 
+    position: relative;
+    top:20%;
+}
+
+.byline {
+ font-style:
+ italic; 
+ color: #B6B6B6; 
+ font-size: 24px; 
+ margin-top: 20px; 
+ text-align: center; 
+ text-shadow: 0 1px 1px #fff; 
+}
+.BigTitle_2 {
+  font: 400 130px/0.8 'Great Vibes',tahoma;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+.Mini{
+  font-size: 40px;
+  margin-left: 5px;
+}
+.Super_Mini {
+  font-size: 30px;
+}
+.Super_Mini_2 {
+  font-size: 20px;
+}
+
+.Small_Cursive {
+  font: 400 25px/0.8 'Great Vibes',tahoma;
+  color: #fff;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+
+
+/* standard_margins and paddings */
+
+ .Margin_L {
+  margin-left: 2%;
+ }
+  .Margin_R {
+  margin-right: 2%;
+ }
+  .Margin_T {
+  margin-top: 2%;
+ }
+  .Margin_B {
+  margin-bottom: 2%;
+ }
+ .Margin {
+   margin: 2%;
+ }
+
+ .Padding {
+   padding: 2%;
+ }
+  .Padding_L {
+   padding-left: 2%;
+ }
+  .Padding_R {
+   padding-right: 2%;
+ }
+ .Padding_B {
+   padding-bottom: 2%;
+ }
+  .Padding_T {
+   padding-top: 2%;
+ }
+.active2 {
+  background-color: cyan;
+}
+

@@ -1,0 +1,49 @@
+#BigAvatar {
+	width: 94%;
+	height: auto;
+}
+#src_avatar {
+  padding: 3px;
+  border:2px solid black;
+  border-radius: 8px;
+
+}
+#src_avatar_2{
+   border:solid 2px black;
+   padding: 3px;
+   border-radius: 5px;
+   margin-left: 3%;
+}
+.desc {
+	margin-left:5%;
+	display: block;
+	margin-bottom: 5px;
+  font-size: 14px;
+}
+#FullScreen {
+
+}
+
+#head_a_useri {
+   background-color: rgba(1,2,3,0.4);
+   margin-top: 10%;
+}
+#Status_Prietenie {
+  width: 45%;
+  display: block;
+  margin:0 auto 0 auto;
+}
+
+#Posteaza_ {
+  position: relative;
+  top:15px;
+  right: 14%;
+}
+.arrow_2 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 19%;
+  top: 18px;
+  z-index:3;
+}

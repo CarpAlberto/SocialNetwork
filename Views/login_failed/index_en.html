@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <title>Login</title>
+    <link href="../public/css/default.css"   rel="stylesheet">
+    <link href="../public/css/header.css"   rel="stylesheet">
+    <link href="../public/css/login.css"   rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript"src = "../public/js/default.js"></script>
+    <script type="text/javascript"src = "../public/js/language.js"></script>
+</head>
+<body>
+    <div class = "PageContainer">
+    <header>
+        <div class="language">
+            <span>Language: </span>
+                <select id="select" width="20px" onchange = "var a = window.location.href;run(a);">
+                   <form class="black">
+                      <option id="english" value="english">English</option>
+                      <option id="romana" value="romana">Romana</option>
+                   </form>
+                </select>
+          </div>
+        <img src = "public/images/logo.jpeg" alt = "logo">
+        <hgroup>
+            <h1>ATM Chat</h1>
+        </hgroup>
+    </header> <!--EndOfHeader-->
+    <div class="PageContent">
+       <div id="TitleLoginFailed">
+           Oops!Username or password is incorrect
+       </div>
+       <div class="FormaLogare" id="LogError">
+          <h1>Authentification unsuccesfull!  </h1>
+          <form action="../home/index.html">
+                <div id="boxUsername">
+                <input type="text" 
+                       class="text" 
+                       id="username"
+                       placeholder="Introduceti username!"
+                       onblur="isUsernameValid(this,getElementById('username_help'))" />
+                      <span id="username_help"> </span>
+              </div>
+              <div id="boxPassword">
+                <input type="password" 
+                id="password"
+                placeholder="Introduceti parola!"
+                onblur="isPasswordValid(this,getElementById('pass_help'))" 
+                 />
+               <span id="pass_help"> </span>
+              </div>  
+             <div id ="ForgetPass">
+              <h3>
+                 <a href="../login/Password_Recovery/index_en.html">
+                    Forgot Password?
+                 </a>
+               </h3>
+              <input type="submit" onclick ="return Validate('username','password',0)"  value="Sign In" />
+                   <a href="#" class=" icon arrow">
+                   </a>
+            </div>
+          </form>
+       </div>
+    </div> <!--EndOfPageContent-->
+    </div> <!--EndOfPageContainer-->
+</body>
+</html>

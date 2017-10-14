@@ -1,0 +1,104 @@
+header {
+   background-size: cover;
+   border-bottom:solid black 2px;
+   height:6%;
+   position: fixed;
+   top:0px;
+   width: 100%;
+   z-index: 1000;
+   background-color: #aba;
+}
+header img {
+  float:left;
+  width:60px;
+  height:60px;
+}
+header h1 {
+  position: relative;
+  left:580px;
+  font-size: 2.3em;
+  padding-top: 20px;
+  color:white;
+  font-weight: bolder;
+  top:-10px;
+  width:40%;
+}
+header h2 {
+  position: relative;
+  left:360px;
+  font-size: 1.1em;
+  padding: 0.7em 4px 0.6em 4px;
+  color:white;
+  font-weight: bold;
+  top:-20px;
+  width: 40%;
+}
+.language {
+  display: inline-block;
+  float:right;
+  position: relative;
+  top:14px;
+}
+.language select {
+  border: 0 !important;
+  apereance:none;
+  background: black;
+  width: 120px;
+  text-indent: 0.01px;
+  color: #FFF;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: inset 0 0 5px rgba(000,000,000, 0.5);
+}
+.demo select.balck {
+  background-color: #000;
+}
+.language span {
+  color: white;
+}
+header div#InputSearch {
+  float: right;
+  position: relative;
+  
+}
+#LogoMini img{
+  float: left;
+  width: 40px!important;
+  height: 40px!important;
+  position: relative;
+  top:2px;
+
+}
+header  div#InputSearch input {
+  border:2px solid blue;
+  border-radius: 11px;
+  font-size: 15px;
+  width: 190px;
+  height: 30px;
+  background-image:url('../../public/images/lupa.png');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position:right; 
+}
+#GoProfile {
+  position: fixed;
+  right:12%;
+  top:2.7%;
+  width: 100px;
+}
+#GoProfile img {
+  width: 25px;
+  height:25px;
+  margin-left: 7%;
+}
+.Search {
+  position: relative;
+  bottom: 10px;
+  left: 4px;
+  min-width: 100px;
+}
+#lucky {
+  position: relative;
+  bottom: 3px;
+  left: 3px;
+}

@@ -1,0 +1,171 @@
+#nav{
+	list-style:none;margin: 0px;
+     padding: 0px;
+}
+
+#nav li#notification_li,#notification_li_f {
+float: right;
+font-size: 17px;
+font-weight:bold;
+position: relative;
+bottom: 16px;
+padding: 2px;
+margin-right: 5%;
+}
+#nav li a{
+	color:#333333;
+	text-decoration:none;
+}
+#nav li a:hover{
+	color:#006699;
+	text-decoration:none;
+}
+#notification_li{
+	position:fixed!important;
+	top:2%;
+	right: 15%;
+	height: 20px;
+
+}
+#notification_li_f {
+    position:fixed!important;
+    top:2%;
+	right: 18%;
+    height: 20px;
+}
+#notificationContainer,#friends_requestContainer {
+	background-color: #fff;
+	border: 1px solid rgba(100, 100, 100, .4);
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+	overflow: visible;
+	top: 65px;
+	margin-left: -170px;
+	width: 400px;
+	display: none;
+	z-index: 100;
+	position: fixed;
+}
+#notificationContainer:before ,#friends_requestContainer:before{
+content: '';
+display: block;
+position: absolute;
+width: 0;
+height: 0;
+color: transparent;
+border: 10px solid black;
+border-color: transparent transparent white;
+margin-top: -20px;
+margin-left: 188px;
+}
+#notificationTitle {
+font-weight: bold;
+padding: 8px;
+font-size: 11px;
+background-color: #ffffff;
+color:black;
+width:386px;
+border-bottom: 1px solid #dddddd;
+}
+#notificationsBody
+{
+  padding: 13px 0px 0px 0px !important;
+  min-height:250px;
+}
+#notificationFooter {
+background-color: #e9eaed;
+text-align: center;
+font-weight: bold;
+padding: 8px;
+font-size: 12px;
+border-top: 1px solid #dddddd;
+}
+#notification_count,#notification_count_p {
+padding: 3px 7px 3px 7px;
+background: #cc0000;
+color: #ffffff;
+font-weight: bold;
+margin-left: 40px;
+border-radius: 9px;
+position: absolute;
+margin-top: -11px;
+margin-left: 15px;
+font-size: 11px;
+}
+.Notif_Item {
+	max-height: 50px;
+	overflow: hidden;
+	width: 95%;
+	margin-left: 3%;
+	border-bottom: 2px solid black;
+	cursor: pointer;
+}
+.Notif_Item:hover {
+	background-color: #E6E6E6;
+}
+.notif_text {
+	width: 80%;
+	height: 100%;
+	float:right;
+	position: relative;
+	clear:both;
+	font-size: 12px;
+	text-align: left;
+	color: black;
+}
+.notif_image {
+  float: left;
+  width: 15%;
+  height: 15%;
+  margin:1%;
+}
+.notif_image img{
+	width: 40px !important;
+	height:40px !important;
+	padding: 2%;
+}
+.notif_time {
+	opacity: 0.6;
+	font-size: 11px;
+	font-variant: italic;
+	height: 10%;
+	position: absolute;
+    top:35px;
+}
+a.notif_base {
+	height: 27px;
+	margin: 0px;
+	width: 27px;
+	display: block;
+}
+a.notif_icon {
+	background-image: url("../../images/icon_notif.png");
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	background-position: 0px -918px;
+}
+a.friends_icon {
+	background-image: url("../../images/icon_notif.png");
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	background-position: 0px -535px;
+}
+
+.not_pos {
+  position: relative;
+  right:4%;
+}
+.friends_add {
+	width: 55%;
+	float: right;
+	position: relative;
+	top:15px;
+}
+.Friend_Title {
+	width: 30%;
+	font-size: 14px !important;
+	float:right;
+	position: relative;
+	top:20px;
+	margin-left: 10px;
+	color: blue !important;
+}

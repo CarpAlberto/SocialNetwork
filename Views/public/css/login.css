@@ -1,0 +1,136 @@
+.FormaLogare{
+	margin-top:10%;
+	margin-left:auto;
+	margin-bottom: 4%;
+	margin-right: auto;
+	background: url(../images/bgf.png);
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-size: 100%;
+	width:45%;
+	position: relative;
+}
+.FormaLogare h1{
+	text-align:center;
+	color:azure;
+	font-size:1.6em;
+	font-weight:bold;
+	font-family: sans-serif;
+	position:absolute;
+	left:30%;
+	top:6%;
+	color: azure;
+}
+#LogError h1{
+	text-align:center;
+	color:azure;
+	font-size:1.6em;
+	font-weight:bold;
+	font-family: sans-serif; 
+	position:absolute;
+	left:20%;
+	top:6%;
+	color: azure;
+}
+
+.FormaLogare h3 a:hover {
+	color: blue;
+}
+form 
+{
+	padding:32% 3.8em;
+}
+form div#boxUsername,
+form div#boxPassword{
+	border:2px solid yellow;
+	border-radius: 4px;
+	margin-bottom:16px;
+	width:100%;
+	background: azure;
+}
+
+.icon{
+	background:url(../images/icons.png)  no-repeat 0px 0px;
+	height:40px;
+	width:40px;
+	display: block;
+	float:left;
+	margin:5px -11px 0px 0px
+}
+
+.arrow{
+	background: url(../images/icons.png) no-repeat -62px 11px;
+	position: absolute;
+}
+
+input[type="text"], 
+input[type="password"] {
+	font-family:sans-serif;
+	padding: 0.5em 2em 0.5em 1em;
+	color: black;
+	font-size:16px;
+	width:87%;
+	border:none;
+}
+
+input[type="submit"]
+{
+	float:left;
+	font-size:18px;
+	display: inline-block;
+	font-weight:600;
+	color: #615F5F;
+	transition: 0.1s all;
+	cursor: pointer;
+	padding:15px 10px;
+	margin-top:3px;
+	font-family:sans-serif;
+	background: #222;
+	width:45%;
+	border:2px solid #222;
+	border-radius: 4px;
+}
+input[type="submit"]:hover
+{
+	background: azure;
+	border:1px solid #FFC600;
+}
+
+#ForgetPass{
+	margin:30px 7px;
+}
+#ForgetPass h3 a{
+	color:#fff;
+	font-size:15px;
+	font-family: sans-serif;	
+	float:right;
+	font-weight:600;
+	margin-top:19px;
+}
+#ForgetPass h3 a:hover{
+	color:#FFC600;
+}
+
+/*End LOgin */
+/*  Login_Failed  */
+
+#TitleLoginFailed {
+	color:#fff;
+	text-decoration:none;
+	font-size: 25px;
+	font-family: 'open_sansregular';
+	text-align: center;
+	display: block;
+	margin: 15px;
+	color: linear-gradient(135deg, #b3dced 0%,#29b8e5 50%,#bce0ee 100%);
+}
+#LogError h1 {
+   color:red;
+   text-align: left;
+}
+.log
+{
+	position: relative !important;
+	left:240px !important;
+	top:70px !important;
+}

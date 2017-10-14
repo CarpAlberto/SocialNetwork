@@ -1,0 +1,185 @@
+
+/*  
+   box-pentru pagina de avatar din stanga paginii home
+   fiecare user are o pagina principala
+
+*/
+#PageAvatar {
+	width:90%;
+	height:200px;
+	border:2px solid black;
+	border-radius: 10px;
+	z-index: 10;
+	position: relative;
+	left: 15px;
+	top:10px;
+
+}
+#TopAvatar {
+	width: 100%;
+	height: 80%;
+	background-color: rgba(1,2,3,0.4);
+
+}
+#PageAvatar #TopAvatar img {
+	height:130px;
+	width:130px;
+	float: right;
+}
+#PageAvatar #TopAvatar h2{
+	color: white;
+	font-weight: bold;
+	float:left;
+}
+#bottomAvatar {
+	height: 20%;
+	width: 100%;
+	position: relative;
+}
+#grupuri {
+	position: relative;
+	left: 15px;
+	top:10px;
+}
+#bottomAvatar input {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+
+}
+#PageAvatar #TopAvatar a {
+    color: blue;
+    font-weight: normal;
+    text-decoration: none;	
+}
+#NotificariAvatar ul {
+	list-style: outside none none;
+}
+#NotificariAvatar ul#msg{
+	padding-left: 2px;
+	padding-top: 10px;
+	width: 20%;
+	float:left;
+}
+#NotificariAvatar ul li#msg_label,
+#NotificariAvatar ul li#notif_label,
+#NotificariAvatar ul li#req_label {
+	font-size: 10px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	transition: color 0.15s ease-in-out 0s;
+	overflow: hidden;
+}
+#NotificariAvatar ul li#msg_value,
+#NotificariAvatar ul li#notif_values,
+#NotificariAvatar ul li#req_value{
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	transition: color 0.15s ease-in-out 0s;
+	overflow: hidden;
+	padding-top: 5px;
+	color: blue;
+}
+#NotificariAvatar ul#notif {
+	padding-left: 2px;
+	padding-top: 10px;
+	width: 27%;
+	float:left;
+}
+#NotificariAvatar ul#req {
+	padding-left: 5px;
+	padding-top: 8px;
+	width: 44%;
+	float:left;
+}
+.groups_item {
+ color: black;
+ font-weight: bold;
+ background-color:azure;
+ height: auto;
+ overflow:auto;
+ padding: 4%;
+ min-height: 100px;
+ width: 92%;
+}
+.group_item:hover {
+	background-color: #D1D4DB;
+}
+.group_item {
+	border-bottom: 1px dotted black;
+	display: block;
+}
+.form{
+	border-radius:2px;
+	padding:20px 30px;
+	box-shadow:0 0 15px;
+	font-size:14px;
+	font-weight:bold;
+	width:300px;
+	margin:20px 250px 0 35px;
+	float:left;
+}
+#Add_Group_Div{
+	opacity:0.92;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background:black;
+}
+.img{
+  float: right;
+  margin-top: -35px;
+  margin-right: -37px;
+  width: 20px;
+  height: 20px;
+}
+#ad_group {
+    top: 20%;
+    margin-left: -10px;
+    margin-top: -155px;
+    width: 560px;
+    height: 450px;
+    margin: 0px;
+    background-color: black;
+    font-family: "Fauna One",serif;
+    position: relative;
+    border: 5px solid #5A9EB5;
+}
+#add_g_title {
+	text-align: center;
+	margin-bottom: 30px;
+	border-bottom: solid 2px black;
+}
+#creeaza,
+#renunta {
+	margin-top: 80px;
+}
+
+.msg_post {
+	width: 90px;
+	height: 55px;
+}
+._pupUp {
+	  opacity:0.92;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+}
+#im {
+	left: 34%;
+    top: 20%;
+    margin-left: -110px;
+    margin-top: -155px;
+    width: 400px;
+    height: 400px;
+    margin: 0px;
+    position: relative;
+    border: 5px solid #5A9EB5;
+}

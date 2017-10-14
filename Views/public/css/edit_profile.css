@@ -1,0 +1,135 @@
+nav#Vertical {
+	margin-left:auto;
+	margin-right: auto;
+    width: 17.4em;
+    height:500px;
+    right: auto;
+    left:1em;
+    background: #DDB url('http://www.w3.org/Style/dogsear.png') bottom right no-repeat;
+    background-color: #DDB ;
+    float:left;
+}
+#EditPhone,#Edit_Mail,#Mod_Adress,#Mod_Birthday,#Mod_Sex,#Edit_Faculty {
+  height: 60px;
+  width: 100%;
+}
+.btn_weap {
+  width: 170px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  right: 44px;
+  top:10px;
+}
+.image_friend {
+  max-width: 150%;
+  height: 200px;
+}
+#HeaderProfile {
+   font-style: Arial;
+   font-weight: bold;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   padding: 3px;
+   margin:20px;
+   text-align: center;
+}
+nav#Vertical ul li {
+	display: block;
+  font-size: medium;
+  margin: 0.55em 1.63em 0.44em -0.9em;
+  padding: 0.38em 1em;
+  text-indent: 0;
+  text-align: left;
+  background: #aa7 url('http://www.w3.org/Style/sandydogsear.png') bottom right no-repeat;
+  color: white;
+  border-bottom: none;
+  list-style: none;
+}
+nav#Vertical ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 12px;
+}
+.hidden_family {
+  position: relative;
+  bottom:32px;
+}
+nav#Vertical ul li:hover {
+  background-color: blue;
+}
+nav#Vertical ul li:active {
+    color: #000;
+    background:gradient(linear, left top, left bottom, from(#DFE7FA), to(#FFF));
+    border-bottom-width:0px;
+}
+div#CenterPage div.InfoGeneral {
+	background-color: azure;
+	width: 100%;
+	height: 600px;
+}
+.Date_Contact {
+	width: 40%;
+	height: 25%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right:30px;
+    float:right;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.Date_Contact:hover {
+	background-color:#BDBDBD;
+}
+.Date_Contact a {
+	display: block;
+	margin-top: 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.7px;
+}
+.Locatie {
+	width: 30%;
+	height: 30%;
+}
+.Phone_Records,.Email_Records {
+	padding: 1px;
+	margin-left: 3%;
+}
+.Info {
+   width: 43%;
+   height:200px;
+   padding: 4.5%;
+}
+.Info li {
+	width: 100%;
+	margin: 0px auto 0px auto;
+	border:dotted 1px black;
+	border-radius: 4px;
+	margin-bottom: 5%;
+	display: block;
+	text-align: justify;
+}
+#ad:hover{
+	background-color: #BDBDBD;
+}
+#st:hover {
+  background-color: #BDBDBD;
+}
+.Name {
+	font-size: 13px;
+}
+.active 
+{
+   font-weight: bolder;
+   text-decoration: underline;
+}
+#ad{
+  margin-bottom: 40px;
+}
+.Adr {
+  margin-bottom: 8px;
+}
+
+
+

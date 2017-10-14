@@ -1,0 +1,232 @@
+#Wrapper_Msg {
+    min-width: 3%;
+    overflow: auto;
+    height: 320px;
+    right: 70px;
+    overflow-y:hidden;
+    overflow-x:scroll;
+    position: fixed;
+    bottom: 0px;
+    z-index:100;
+}
+.header {
+    background-color: rgba(1,2,3,0.8);
+}
+.shout_box {
+    background-color: rgba(1,2,3,0.4);
+    width:260px; 
+    overflow:auto;
+    position: relative;
+        top:25px;
+    float: left;
+    z-index: 200;
+}
+.shout_box .header .close_btn {
+      background: url(../images/close.png) no-repeat 0px 0px;
+      float:right; 
+      width:15px;
+      height: 15px;
+}
+.shout_box .header .minimize_btn {
+    background: url(../images/minimize.png);
+    float:right; 
+    width:15px;
+    height:15px;
+}
+.shout_box .header .add_friends_icon {
+    background: url(../images/friends_mini.png) no-repeat;
+    float:right; 
+    width:15px;
+    height:15px;
+}
+.shout_box .header .close_conv_icon {
+    background: url(../images/close_3.png) no-repeat;
+    float:right; 
+    width:15px;
+    height:15px;
+}
+.shout_box .toggle_chat .add_photo_icon {
+    background: url(../images/photo.png) no-repeat;
+    width:24px;
+    height:17px; 
+}
+.shout_box .toggle_chat .add_emo_icon {
+    background: url(../images/emo.png) no-repeat;
+    width:17px;
+    height:17px; 
+}
+.shout_box .header .close_btn:hover {
+    background: url(../images/close.png) no-repeat 0px -16px;
+}
+.shout_box .header .open_btn {
+    background: url(../images/close.png) no-repeat 0px -32px;
+    float:right; 
+    width:15px;
+    height:15px;
+}
+.shout_box .header .open_btn:hover {
+    background: url(../images/close.png) no-repeat 0px -48px;
+}
+.shout_box .header
+{
+    padding: 5px 3px 5px 5px;
+    font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+    font-weight: bold; color:#fff;
+    border: 1px solid rgba(0, 39, 121, .76);
+    border-bottom:none;
+     cursor:pointer;
+}
+.shout_box .header:hover{
+    background-color: #627BAE;
+}
+.shout_box .message_box {
+    background: #FFFFFF; height: 200px;
+    overflow:auto; border: 1px solid #CCC;
+}
+.shout_msg{
+    margin-bottom: 10px; display: block;
+    border-bottom: 1px solid #F3F3F3; padding: 0px 5px 5px 5px;
+    font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif; color:#7C7C7C;
+}
+.message_box:last-child { 
+    border-bottom:none;
+}
+time{
+    font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+    font-weight: normal; float:right; color: #D5D5D5;
+}
+.shout_msg .username{
+    margin-bottom: 10px;margin-top: 10px;
+}
+.user_info input {
+ width: 98%; height: 25px;
+ border: 1px solid #CCC; border-top: none; 
+    padding: 3px 0px 0px 3px;
+    font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+    background-color: white;
+}
+.shout_msg .username{
+  font-weight: bold; display: block;
+}
+.message_box {
+    width: 100%;
+}
+
+.text_Send {
+    float:left;
+    min-width: 13px;
+    min-height: 18px;
+    max-width: 70%;
+    overflow: auto;
+    font-size: 12px;
+    text-align: left;
+    margin-top:4%;
+    margin-left: 2%;
+    white-space: pre-wrap;
+    word-wrap:break-word;
+    color: green;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    background-color: azure;
+    border-radius: 4px;
+    box-shadow: 0px 1px 0px #DCE0E6;
+    border:solid 1px;
+    border-color: rgba(0, 0, 0, 0.18) rgba(0, 0, 0, 0.18) rgba(0, 0, 0, 0.29);
+
+
+}
+.text_Send span {
+    padding: 1px;
+}
+
+#shout_message{
+    word-wrap:break-word;
+    height: 35px;
+    overflow: auto;
+    max-width:95%; 
+    border: 0px none;
+    display: block;
+    outline: medium none;
+    resize: none;
+    direction: ltr;
+    cursor: text;
+}
+.Add_Fr {
+    z-index:100;
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+#box_add_f {
+    float: left;
+    width: 72%;
+    clear: both;
+    height: 4%;
+    margin: 2%;
+    padding: 1%;
+}
+#gata_btn {
+    float: right;
+    margin-top: 1%;
+    height: 25px;
+}
+
+#chat-head { 
+background: #fff url('http://sphotos-a.ak.fbcdn.net/hphotos-ak-ash4/404911_10200598009661667_1705503855_n.jpg') no-repeat -3px -5px;
+background-size: 80px 80px;
+width: 70px;
+height: 70px;
+-webkit-border-radius: 55px;
+-moz-border-radius: 55px;
+border-radius: 55px;
+background-color: #adafb5;
+-webkit-box-shadow: 0 2px 12px 1px rgba(0,0,0,.89);
+-moz-box-shadow: 0 2px 12px 1px rgba(0,0,0,.89);
+box-shadow: 0 2px 12px 1px rgba(0,0,0,.89);
+border: solid 1px #fff;
+position: fixed;
+right: -110px;
+top: 60px;
+text-decoration: none;
+-webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out;
+}
+
+#chat-head a { 
+width: 17px;
+height: 24px;
+-webkit-border-radius: 4px/3px;
+-moz-border-radius: 4px/3px;
+border-radius: 4px/3px;
+background-color: #adafb5;
+background-image: -webkit-linear-gradient(bottom, #ff1919, #ff5959);
+background-image: -moz-linear-gradient(bottom, #ff1919, #ff5959);
+background-image: -o-linear-gradient(bottom, #ff1919, #ff5959);
+background-image: -ms-linear-gradient(bottom, #ff1919, #ff5959);
+background-image: linear-gradient(to top, #ff1919, #ff5959);
+display: block;
+color: #fff;
+font-style: normal;
+font-family: 'Helvetica';
+font-weight: bold;
+font-size: 16px;
+text-align: center;
+line-height: 28px;
+box-shadow: 0px 1px 3px #000;
+-moz-box-shadow: 0px 1px 3px #000;
+-webkit-box-shadow: 0px 1px 3px #000;
+border: 1px solid rgba(255, 0, 0, .5);
+margin: -5px 0 0 -5px;
+text-shadow: 0 2px 0 #c51414;
+}
+
+#chat-head.animate { left: 10px; }
+
+._max {
+    width: 100%;
+    max-width:140px;
+    display: inline-block;
+    max-height: 15px;
+    overflow: hidden;
+}
+#close_conf {
+    display: none;
+}

@@ -1,0 +1,12 @@
+{
+    "name": "rest-js",
+    "description": "Example REST Node.JS",
+	"author": "Alecsandru Patrascu <alecsandru.patrascu@gmail.com>",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "3.x",
+        "mysql": "0.9.4",
+        "mysql-pool": "0.2.2"
+    }
+}

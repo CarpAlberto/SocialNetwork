@@ -1,0 +1,97 @@
+nav {
+  /* Repeating background image */
+  background: url(http://weebtutorials.com/wp-content/uploads/2012/11/a.png);
+  width:230px;
+}
+
+nav ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  
+}
+nav ul li {
+  position:relative;
+  word-wrap:break-word;
+}
+nav a {
+  color:#e8e8e8;
+  padding:12px 0px;
+  display:block;
+  text-decoration:none;
+  transition:background 1s;
+  -moz-transition:background 1s;
+  -webkit-transition:background 1s;
+  -o-transition:background 1s;
+  font-family:tahoma;
+  font-size:11px;
+  text-transform:uppercase;
+  padding-left:10px;
+}
+nav a:hover {
+  background: RGBA(255,255,255,0.05);
+  color:#fff;
+}
+nav a:hover span {
+  background: #7d2c41;
+  transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+}
+nav ul li:hover ul {
+  display:block;
+}
+nav ul ul {
+  position:absolute;
+  left:210px;
+  top:0;
+  border-top:1px solid #e9e9e9;
+  display:none;
+}
+nav ul ul li {
+  width:160px;
+  background:#f1f1f1;
+  border:1px solid #e9e9e9;
+  border-top:0;
+}
+nav ul ul li a {
+  color:#a8a8a8;
+  font-size:12px;
+  text-transform:none;
+}
+nav ul ul li a:hover {
+  color:green;
+  background-color: #b1f1f1 !important;
+}
+nav span {
+  width:12px;
+  height:12px;
+  background:#fff;
+  display:inline-block;
+  float:left;
+  margin-top:3px;
+  margin-right:14px;
+  position:relative;
+  transition:all 0.5s;
+  -moz-transition:all 0.5s;
+  -o-transition:all 0.5s;
+  -webkit-transition:all 0.5s;
+}
+nav span:before {
+  content:"";
+  width:12px;
+  height:2px;
+  background:#3a3b3b;
+  position:absolute;
+  left:0px;
+  top:5px;
+}
+nav span:after {
+  content:"";
+  width:2px;
+  height:12px;
+  background:#3a3b3b;
+  position:absolute;
+  left:5px;
+  position:top;
+}

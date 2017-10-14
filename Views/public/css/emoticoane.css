@@ -1,0 +1,134 @@
+.Wrap_Emo {
+	height: 170px;
+	width: 200px;
+	overflow: hidden;
+	display: none;
+	z-index: 700;
+}
+.Tab_Emoticoane {
+	border-spacing: 15px;
+	margin:25px auto 3px;
+	position: relative;
+	height: 100%;
+	background-color: rgba(1,2,3,0.4);
+    padding: 3px;
+    border:solid 2px white;
+    border-radius:5px;
+}
+.emoticon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid;
+}
+.emoticon_smile {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -8033px;
+}
+.Panel.emoticon{
+	display: block;
+	height: 14px;
+	padding: 0px 2px 2px 0px;
+	width: 14px;
+} 
+.emoticon_sad {
+	background-image: url("../images/emoticoane.png");
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	background-position: 0px -7812px
+}
+.emoticon_tongue {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -8084px;
+}
+.emoticon_lucky {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -7863px;
+}
+
+
+
+.emoticon_unsure {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -8101px;
+}
+.emoticon_cry {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -7778px;
+}
+.emoticon_very_happy {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -7914px;
+}
+.emoticon_glasses {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -8067px;
+}
+
+
+.emoticon_impress {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -7829px;
+}
+.emoticon_eye {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -8135px;
+}
+.emoticon_supy {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -7880px;
+}
+
+
+
+.emoticon_heart {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -7897px;
+}
+
+
+.emoticon_confused {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -8118px;
+}
+.emoticon_devil {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -7795px;
+}
+.emoticon_like {
+    background-image: url("../images/emoticoane.png");
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: 0px -60px;
+}
+
+
+
+

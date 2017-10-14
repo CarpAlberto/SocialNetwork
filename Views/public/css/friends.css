@@ -1,0 +1,63 @@
+#HeadPrieteni,#HeadConversatii {
+	font-size: 15px;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	transition: color 0.15s ease-in-out 0s;
+	padding:5px;
+	color: blue;
+	text-align: center;
+	background-color: rgba(1,2,3,0.4);
+}
+#ListItemFriend {
+	border:2px solid white;
+	border-radius: 3px;
+	height: 45px;
+	background-color: white
+	
+}
+#ListItemFriend:hover {
+	background-color: #bbf;
+}
+div.ImageFriend  img {
+	width:35px!important;
+	height:35px!important;
+	float:left;
+	padding: 2%;
+	clear:both;
+
+}
+div#NameFriend {
+  float:left;
+  padding-left: 7%;
+  padding-top: 5%;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.15s ease-in-out 0s;
+  letter-spacing: 0.1em;
+  font-size: 11px!important;
+  color: black!important;
+  position: relative;
+}
+a#LinkFriend {
+	text-decoration: none;
+}
+div#StatusFriend{
+  float: right;
+  color: green;
+  position: relative;
+  top:35%;
+} 
+.FixedSearch {
+	position: fixed;
+	bottom: 5px;
+	right:0px;
+	font-size: 15px;
+	padding: 3px;
+	width:21.8%;
+	height:30px;
+	background-color: red;
+}
+.FixedSearch input {
+	width: 100%;
+	height: 100%;
+}

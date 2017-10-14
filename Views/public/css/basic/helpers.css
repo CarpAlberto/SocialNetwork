@@ -1,0 +1,81 @@
+ .rounded {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+.Bordered {
+	border: 1px solid black;
+}
+.Bordereded_White {
+	border-color: white;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	text-align: center;
+}
+.right {
+	float:right !important;
+}
+._right {
+	float:right !important;
+}
+.left {
+	float:left;
+	margin-right:3%;
+}
+._left {
+	float:left;
+	margin-right:3%;
+}
+
+
+.Width_25 {
+  width: 100px;
+}
+.Width_50 {
+	width:50%;
+}
+.Width_75 {
+	width:75%;
+}
+.inline {
+	display: inline;
+}
+.Big_Image {
+	height: 200px;
+	width: 96%;
+}
+.Super_Big_Image {
+	height: 400px !important;
+	width: 400px !important;
+}
+.Min_Height {
+	min-height: 400px;
+}
+
+.hide {
+  display: none;
+}
+.show {
+	display: block;
+}
+.inline {
+	display: inline;
+}
+.bor_col {
+	border-spacing: 0px;
+	border-collapse:collapse;
+}
+.image_Small {
+	width: 24px;
+	height: 24px;
+}
